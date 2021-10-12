@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Tailwindcss</title>
+    <script src="all.min.js" crossorigin="anonymous"></script>
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+
+  <body>
+    <div class="max-w-screen-lg mx-auto my-6">
+      <div class="relative pb-10">
+        <div class="absolute w-px bg-gray-300 h-full top-0 left-6"></div>
+        <div class="flex relative">
+          <div>
+            <div>
+              <div
+                class="h-12 w-12 rounded-full bg-cover ring-4 ring-white"
+                style="background-image: url(img/photo.jfif);"
+              ></div>
+              <div class="absolute bottom-24 left-7">
+                <i
+                  class="fas fa-comment-alt text-gray-400 ring-4 ring-white"
+                ></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="pl-4 flex-grow">
+            <h1 class="font-bold">Eduardo Benz</h1>
+            <p class="text-gray-400 mb-3">Commented 6d ago</p>
+
+            <p class="text-gray-900">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
+              nun ipsum tempor purus vitae id. Morbi in vestibulum nec varius.
+              Et diam cursus quis sed purus nam.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative pb-5">
+        <div class="absolute w-px bg-gray-300 h-full top-0 left-6"></div>
+        <div class="flex items-center relative">
+          <div class="px-1">
+            <div
+              class="rounded-full h-10 w-10 bg-gray-100 text-gray-500 flex justify-center items-center ring-4 ring-white"
+            >
+              <i class="fas fa-tag"></i>
+            </div>
+          </div>
+
+          <div class="pl-2 flex-grow">
+            <div>
+              <span class="font-bold pl-3">Hilary Mahy</span>
+              <span class="text-gray-400">assigned</span>
+              <span>Kristin Watson</span>
+              <span class="text-gray-400">2d ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="flex items-center">
+          <div class="px-1">
+            <div
+              class="rounded-full ring-4 ring-white h-10 w-10 bg-gray-100 text-gray-500 flex justify-center items-center"
+            >
+              <i class="fas fa-tag"></i>
+            </div>
+          </div>
+
+          <div class="pl-2 flex-grow flex space-x-1">
+            <div>
+              <span class="font-bold pl-3">Hilary Mahy</span>
+              <span class="text-gray-400">added tags</span>
+            </div>
+            <div
+              class="rounded-full h-7 border border-gray-500 flex items-center px-1"
+            >
+              <div class="w-2 h-2 bg-pink-500 rounded-full mr-1"></div>
+              Bug
+            </div>
+            <div
+              class="rounded-full h-7 w-32 border border-gray-500 content-center"
+            >
+              <i
+                class="fas fa-circle align-middle w-auto h-2 text-purple-600"
+              ></i
+              >Accessibility
+            </div>
+            <p class="text-gray-400">6h ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
